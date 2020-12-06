@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 from sklearn import linear_model
-from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.metrics import r2_score
 import matplotlib.pyplot as plt
 
 cleaned_df = pd.read_csv('cleaned_dataframe.csv', index_col = 'index')
