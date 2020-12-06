@@ -9,7 +9,6 @@ cleaned_df = pd.read_csv('cleaned_dataframe.csv', index_col = 'index')
 
 st.sidebar.title('Variable Configuration')
 
-
 #generate a list of option by getting all headers.
 prediciton_options_all_possible_variables = []
 for col in cleaned_df.columns:
@@ -85,8 +84,6 @@ def scatter_plot(tested_df, tested_indexes, model, title, tested_variables = lis
     plt.legend()
     return figure_test
 
-
-
 st.sidebar.write('All growth rate should be set to the percentile(s) increase on the most recently released data when making prediction.')
 st.sidebar.title('Expected Price: ' + str(expected_value))
 st.sidebar.write('The expected price is calculated by your model based on the variables and the associated growth rate you select.')
@@ -118,4 +115,4 @@ st.write('\nR square on validation data: ', prediction_regression_r2(tested_df =
 
 st.subheader('Appreciate more variables?')
 st.write('You are welcome to feed the model with more data.')
-st.write('Contact chen_jimi@bentley.edu or zhou_yuti@bentley.edu for more information')
+st.write('Contact chen_jimi@bentley.edu or zhou_yuti@bentley.edu for more information.')
