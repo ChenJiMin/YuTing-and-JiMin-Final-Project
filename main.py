@@ -118,4 +118,4 @@ st.write('\nR square on validation data: ', prediction_regression_r2(tested_df =
 
 st.subheader('Appreciate more variables?')
 st.write('You are welcome to feed the model with more data.')
-st.write('Contact chen_jimi@bentley.edu or zhou_yuti@bentley.edu for more information')
+st.write('Contact chen_jimi@bentley.edu or zhou_yuti@bentley.edu for more information.')
